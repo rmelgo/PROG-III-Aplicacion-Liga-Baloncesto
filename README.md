@@ -1,6 +1,6 @@
 # PROG-III-Aplicación-Liga-Baloncesto
 
-![polinomios](https://github.com/rmelgo/Operaciones-con-polinomios/assets/145989723/d4fb4e43-b340-464b-b91c-ad76af4004f0)
+![liga-femenina](https://github.com/rmelgo/PROG-III-Aplicacion-Liga-Baloncesto/assets/145989723/6c731860-4bf7-4a7f-870d-322d6b4cfdfd)
 
 # - Introducción
 
