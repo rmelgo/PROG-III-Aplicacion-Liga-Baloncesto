@@ -1,6 +1,6 @@
 # PROG-III-Aplicación-Liga-Baloncesto
 
-![liga-femenina](https://github.com/rmelgo/PROG-III-Aplicacion-Liga-Baloncesto/assets/145989723/6c731860-4bf7-4a7f-870d-322d6b4cfdfd)
+![Liga_Femenina_2012](https://github.com/rmelgo/PROG-III-Aplicacion-Liga-Baloncesto/assets/145989723/6f320300-5df6-44e1-95c6-4b57d82b27dc)
 
 # - Introducción
 
@@ -54,6 +54,19 @@ La aplicación se encuentra estructurada en los siguientes ficheros:
   - Nombre de la temporada
   - Lista de jornadas
   - Lista de equipos
+
+# - Funcionalidades de la aplicación
+
+Todos los datos que genera o utiliza la aplicación se encuentran en un una carpeta llamada *"LigFemBal"* que debe situarse obligatoriamente en el escritorio. En caso contrario, la aplicación no funcionará correctamente.
+
+En el arranque de la aplicación, se comprobará si existen datos previamente guardados dentro de la subcarpeta *"binarios"* dentro de la carpeta *"LigFemBal"*. Si existen datos guardados, se cargaran dichos datos en la aplicación. Logicamente, la primera vez que se ejecute la aplicación, la carpeta *"binarios"* estará vacia.
+
+- **Gestión de la temporada**
+  
+  - **Iniciar temporada**: Se introduce el nombre de la temporada de la cual se desean introducir datos.
+  - **Cargar jornadas**: Se cargarán los datos relativos a todas las jornadas de la liga. Estos datos se encuentran en un fichero llamado ***datosjornadas.txt*** dentro de la carpeta *"LigFemBal"*. Este fichero se trata de un fichero CSV con el separador "+" para separar los atributos de cada jornada, el separador "#" para separar los distintos partidos de una jornadas y el separador "$" para separar los datos de cada partido de la jornada.
+  - **Cargar equipos**: Se cargarán los datos relativos a todos los equipos de la liga. Estos datos se encuentran en un fichero llamado ***datosequipos.txt*** dentro de la carpeta *"LigFemBal"*. Este fichero se trata de un fichero CSV con el separador "#" para separar los distintos atributos de cada equipo.
+  - **Cargar jugadoras**: Se cargarán los datos relativos a las jugadoras de cada equipo de la liga. En la subcarpeta ***jugadoras*** dentro de la carpeta *"LigFemBal"* existe un fichero por cada equipo de la liga (con el nombre correspondiente al equipo), donde cada uno de estos ficheros contiene las jugadoras del equipo correspondiente. Estos ficheros se tratan de ficheros CSV con el separador "\t" para separar los distintos atributos de cada jugadora. Es posible que algunos atributos de una jugadora esten vacios. En ese caso, habrá 2 tabuladores juntos.
 
 # - Comentarios sobre el entorno de ejecución
 
