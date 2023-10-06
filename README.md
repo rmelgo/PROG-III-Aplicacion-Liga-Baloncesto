@@ -4,7 +4,7 @@
 
 # - Introducción
 
-Proyecto realizado en la asignatura de Programación III del grado de Ingenieria Informática de la Universidad de Salamanca. El enunciado de la aplicación se encuentra subido en el repositorio en un archivo pdf llamado *Práctica final PIII 2020-21.pdf*   
+Proyecto realizado en la asignatura de Programación III del grado de Ingenieria Informática de la Universidad de Salamanca. El enunciado de la aplicación se encuentra subido en el repositorio en un archivo pdf llamado *Práctica final PIII 2020-21.pdf*.   
   
 El principal objetivo de este proyecto es la realización de un programa en Java que gestione la información de una liga de baloncesto femenino.
 
