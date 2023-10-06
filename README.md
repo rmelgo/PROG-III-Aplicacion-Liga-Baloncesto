@@ -67,6 +67,14 @@ En el arranque de la aplicación, se comprobará si existen datos previamente gu
   - **Cargar jornadas**: Se cargarán los datos relativos a todas las jornadas de la liga. Estos datos se encuentran en un fichero llamado ***datosjornadas.txt*** dentro de la carpeta *"LigFemBal"*. Este fichero se trata de un fichero CSV con el separador "+" para separar los atributos de cada jornada, el separador "#" para separar los distintos partidos de una jornadas y el separador "$" para separar los datos de cada partido de la jornada.
   - **Cargar equipos**: Se cargarán los datos relativos a todos los equipos de la liga. Estos datos se encuentran en un fichero llamado ***datosequipos.txt*** dentro de la carpeta *"LigFemBal"*. Este fichero se trata de un fichero CSV con el separador "#" para separar los distintos atributos de cada equipo.
   - **Cargar jugadoras**: Se cargarán los datos relativos a las jugadoras de cada equipo de la liga. En la subcarpeta ***jugadoras*** dentro de la carpeta *"LigFemBal"* existe un fichero por cada equipo de la liga (con el nombre correspondiente al equipo), donde cada uno de estos ficheros contiene las jugadoras del equipo correspondiente. Estos ficheros se tratan de ficheros CSV con el separador "\t" para separar los distintos atributos de cada jugadora. Es posible que algunos atributos de una jugadora esten vacios. En ese caso, habrá 2 tabuladores juntos.
+ 
+- **Gestión de jugadoras**
+  - **Modificar datos de una jugadora**: Se introduce el nombre de la jugadora cuyos datos se desean modificar y posteriormente se introducen los datos deseados. Si la jugadora no existe, se producirá un error y se alertará al usuario de la situación.
+  - **Eliminar jugadora de un equipo**: Se introduce el nombre de la jugadora que se desea eliminar y se elimina la jugadora del equipo al que pertenece. Si la jugadora no existe, se producirá un error y se alertará al usuario de la situación.
+  - **Añadir jugadora a un equipo**: Se introduce los datos de la jugadora que se desea añadir y al equipo al que pertenecerá. Si el equipo no existe, se producirá un error y se alertará al usuario de la situación.
+ 
+- **Gestión de la jornada**
+  - **Modificar datos de una jugadora**: Se introduce el nombre de la jugadora cuyos datos se desean modificar y posteriormente se introducen los datos deseados. Si la jugadora no existe, se producirá un error y se alertará al usuario de la situación.
 
 # - Comentarios sobre el entorno de ejecución
 
