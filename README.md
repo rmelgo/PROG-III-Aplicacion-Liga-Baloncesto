@@ -108,6 +108,53 @@ De esta manera, una alternativa para ejecutar la aplicación es utilizar la cons
 
 En las siguientes imagenes, se muestra un ejemplo del uso y funcionamiento de la aplicación:    
 
-<p>
-  <img src="https://github.com/rmelgo/Operaciones-con-polinomios/assets/145989723/88f585eb-965c-4fd9-86c9-93a796561b5d" />
-</p>
+## Gestión de la temporada
+
+![Ejemplo ejecucion 1](https://github.com/rmelgo/PROG-III-Aplicacion-Liga-Baloncesto/assets/145989723/22b2a4d7-c394-4383-80e3-736855fbb07f)
+![Ejemplo ejecucion 2](https://github.com/rmelgo/PROG-III-Aplicacion-Liga-Baloncesto/assets/145989723/764891f5-f22d-42d8-8640-6b66cd4edcb9)
+![Ejemplo ejecucion 3](https://github.com/rmelgo/PROG-III-Aplicacion-Liga-Baloncesto/assets/145989723/a8d9f6cc-a0b0-49f5-9409-4061e46b244c)
+
+## Visualización de resultados
+
+### Visualización de las jugadoras de un equipo:
+
+![Ejemplo ejecucion 4](https://github.com/rmelgo/PROG-III-Aplicacion-Liga-Baloncesto/assets/145989723/64d3164a-e6d9-4517-9b37-b4e8122d94de)
+
+### Visualización de los datos de los equipos de la liga:
+
+![Ejemplo ejecucion 5](https://github.com/rmelgo/PROG-III-Aplicacion-Liga-Baloncesto/assets/145989723/3402ac2f-e9b7-4478-afb9-b10580194ab3)
+
+### Visualización de las jugadoras cuyo nombre empieza con la incial introducida:
+
+![Ejemplo ejecucion 6](https://github.com/rmelgo/PROG-III-Aplicacion-Liga-Baloncesto/assets/145989723/faf29d1f-96ca-45e6-bc9b-4ff6963fbd54)
+
+## Gestión de jugadoras
+
+### Modificar y eliminar una jugadora de un equipo:
+
+![Ejemplo ejecucion 7](https://github.com/rmelgo/PROG-III-Aplicacion-Liga-Baloncesto/assets/145989723/ed772b33-0932-4ddd-8295-6c9aabf460dd)
+
+### Añadir una jugadora de un equipo:
+
+![Ejemplo ejecucion 8](https://github.com/rmelgo/PROG-III-Aplicacion-Liga-Baloncesto/assets/145989723/71a11903-ac50-432d-bfd1-4f63edfdb23f)
+
+### Representación de los cambios realizados:
+
+![Ejemplo ejecucion 9](https://github.com/rmelgo/PROG-III-Aplicacion-Liga-Baloncesto/assets/145989723/1e912882-ab18-4db8-9d1f-d0f704fc00d2)
+
+## Gestión de jornada
+
+### Cargar y mostrar los resultados de una jornada:
+
+![Ejemplo ejecucion 10](https://github.com/rmelgo/PROG-III-Aplicacion-Liga-Baloncesto/assets/145989723/15160db4-bbd7-4887-a141-0cbbeb8b2d32)
+
+### Mostrar la clasificación de una jornada:
+
+![Ejemplo ejecucion 11](https://github.com/rmelgo/PROG-III-Aplicacion-Liga-Baloncesto/assets/145989723/6e08ee73-ef75-461d-9e11-9d4349f87814)
+
+## Almacenamiento de resultados
+
+### Almacenar la clasificación de una jornada
+
+![Ejemplo ejecucion 12](https://github.com/rmelgo/PROG-III-Aplicacion-Liga-Baloncesto/assets/145989723/3494c560-a763-4305-b79a-ae554bf05078)
+![Ejemplo ejecucion 13](https://github.com/rmelgo/PROG-III-Aplicacion-Liga-Baloncesto/assets/145989723/457a3699-f640-4e27-941b-3078e65f07c3)
