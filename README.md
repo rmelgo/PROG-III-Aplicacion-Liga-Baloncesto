@@ -1,4 +1,4 @@
-# PROG-III-Aplicación-Liga-Baloncesto
+# Aplicación para la gestión de una liga de baloncesto
 
 ![Liga_Femenina_2012](https://github.com/rmelgo/PROG-III-Aplicacion-Liga-Baloncesto/assets/145989723/6f320300-5df6-44e1-95c6-4b57d82b27dc)
 
