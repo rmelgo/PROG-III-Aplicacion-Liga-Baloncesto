@@ -4,7 +4,7 @@
 
 # - Introducción
 
-Proyecto realizado en la asignatura de Programación III del grado de Ingenieria Informática de la Universidad de Salamanca. El enunciado de la aplicación se encuentra subido en el repositorio en un archivo pdf llamado *Práctica final PIII 2020-21.pdf*.   
+Proyecto realizado en la asignatura de ***Programación III*** del grado de Ingenieria Informática de la Universidad de Salamanca. El enunciado de la aplicación se encuentra subido en el repositorio en un archivo PDF llamado <a href="https://github.com/rmelgo/PROG-III-Aplicacion-Liga-Baloncesto/blob/main/Pr%C3%A1ctica%20final%20PIII%202020-21.pdf" target="_blank">*Práctica final PIII 2020-21.pdf*</a>.   
   
 El principal objetivo de este proyecto es la realización de un programa en Java que gestione la información de una liga de baloncesto femenino.
 
@@ -13,7 +13,7 @@ El principal objetivo de este proyecto es la realización de un programa en Java
 La aplicación se encuentra estructurada en los siguientes ficheros:
 
 - Un fichero llamado ***Practica_final.java***, que se encarga de mostrar el menú principal de la aplicación.
-- Un fichero llamado ***View.java***, que se encarga de realizar la interacción con el usuario (representación de información y petición de datos al usuario asi como la presentación de los submenús).
+- Un fichero llamado ***View.java***, que se encarga de realizar la interacción con el usuario (representación de información y petición de datos al usuario así como la presentación de los submenús).
 - Un fichero llamado ***Controller.java***, que se encarga de controlar el flujo de información entre el usuario y el modelo de la aplicación.
 - Un fichero llamado ***Jugadora.java***, que se encarga de almacenar los datos relativos a una jugadora:  
   - Nombre
@@ -59,7 +59,7 @@ La aplicación se encuentra estructurada en los siguientes ficheros:
 
 Todos los datos que genera o utiliza la aplicación se encuentran en un una carpeta llamada *"LigFemBal"* que debe situarse obligatoriamente en el escritorio. En caso contrario, la aplicación no funcionará correctamente.
 
-En el arranque de la aplicación, se comprobará si existen datos previamente guardados dentro de la subcarpeta *"binarios"* dentro de la carpeta *"LigFemBal"*. Si existen datos guardados, se cargaran dichos datos en la aplicación. Logicamente, la primera vez que se ejecute la aplicación, la carpeta *"binarios"* estará vacia.
+En el arranque de la aplicación, se comprobará si existen datos previamente guardados dentro de la subcarpeta *"binarios"* dentro de la carpeta *"LigFemBal"*. Si existen datos guardados, se cargarán dichos datos en la aplicación. Lógicamente, la primera vez que se ejecute la aplicación, la carpeta *"binarios"* estará vacía.
 
 - **Gestión de la temporada** 
   
@@ -76,28 +76,28 @@ En el arranque de la aplicación, se comprobará si existen datos previamente gu
   - **Añadir jugadora a un equipo**: Se pedirán los datos de la jugadora que se desea añadir y al equipo al que pertenecerá. Si el equipo no existe, se producirá un error y se alertará al usuario de la situación.
  
 - **Gestión de la jornada**
-  - **Leer resultados de la jornada**: En la subcarpeta ***resul_jornadas*** dentro de la carpeta *"LigFemBal"* existe un fichero por cada jornada donde cada fichero contiene los resultados de los partidos de dicha jornada. De esta manera, se pedirá el número de la jornada de la cual se desean leer los resultados y la apliación lee los resultados de los partidos de dicha jornada introducida. Al realizar la carga de los resultados de una jornada, tambien se calculará la clasificación de dicha jornada, teniendo en cuenta los datos de jornadas anteriores.
+  - **Leer resultados de la jornada**: En la subcarpeta ***resul_jornadas*** dentro de la carpeta *"LigFemBal"* existe un fichero por cada jornada donde cada fichero contiene los resultados de los partidos de dicha jornada. De esta manera, se pedirá el número de la jornada de la cual se desean leer los resultados y la aplicación lee los resultados de los partidos de dicha jornada introducida. Al realizar la carga de los resultados de una jornada, también se calculará la clasificación de dicha jornada, teniendo en cuenta los datos de jornadas anteriores.
   - **Modificar fecha de la jornada**: Se pedirá el número de la jornada que la cual se desea modificar su fecha y se introduce la nueva fecha.
   - **Modificar fecha u hora de un partido**: Se pedirá el número de la jornada y el nombre de uno de los equipos que participan en el partido del cual se desea modificar su fecha u hora y se introduce la nueva fecha u hora.
-  - **Mostrar los resutados de la jornada**: Se pedirá el número de la jornada y se muestra los resultados de los partidos de dicha jornada en un listado.
-  - **Mostrar la clasificación de una jornada**: Se pedirá el número de la jornada y se muestra la clasifiación de lo equipos de la liga en dicha jornada en un listado.
+  - **Mostrar los resutados de la jornada**: Se pedirá el número de la jornada y se muestran los resultados de los partidos de dicha jornada en un listado.
+  - **Mostrar la clasificación de una jornada**: Se pedirá el número de la jornada y se muestra la clasifiación de los equipos de la liga en dicha jornada en un listado.
  
 - **Visualización de resultados**
-  - **Jugadoras de un equipo**: Se pedirá el nombre del equipo y se mostrará un listado con las jugadoras que pertenecen a dicho equipo ordenado por posición y altura. Si el equipo no existe, se producirá un error y se alertará al usuario de la situación.
-  - **Relación de equipos**: Se mostrará un listado con la información de los distintos equipos de la liga ordenados por el número de telefono.
-  - **Relación de jugadoras**: Se pedirá la letra inicial del nombre y se mostrará un listado con las jugadoras cuyo nombre empieza por esa letra ordenadas por fecha de nacimiento.
+  - **Jugadoras de un equipo**: Se pedirá el nombre del equipo y se mostrará un listado con las jugadoras que pertenecen a dicho equipo, ordenado por posición y altura. Si el equipo no existe, se producirá un error y se alertará al usuario de la situación.
+  - **Relación de equipos**: Se mostrará un listado con la información de los distintos equipos de la liga, ordenado por el número de teléfono.
+  - **Relación de jugadoras**: Se pedirá la letra inicial del nombre y se mostrará un listado con las jugadoras cuyo nombre empieza por esa letra, ordenado por fecha de nacimiento.
  
 - **Almacenamiento de resultados**
-  - **Jugadoras de un equipo**: Se pedirá el nombre del equipo y se generará un fichero encolumnado con el nombre del equipo y extensión .enc, que almacenará la información de las distintias jugadoras que pertenecen a dicho equipo. Si el equipo no existe, se producirá un error y se alertará al usuario de la situación.
-  - **Relación de equipos**: Se generará un fichero encolumnado llamado ***equipos.enc***, que almacenará la información de los distintos equipos de la liga (nombre, telefono, web y email).
-  - **Clasificación de una jornada**: Se pedirá el número de la jornada y se generará un fichero html que almacenará la clasificación de la liga en la jornada introducida. El nombre de dicho fichero será n.hmtl siendo n el número de la jornada introducida.
+  - **Jugadoras de un equipo**: Se pedirá el nombre del equipo y se generará un fichero encolumnado con el nombre del equipo y extensión .enc, que almacenará la información de las distintas jugadoras que pertenecen a dicho equipo. Si el equipo no existe, se producirá un error y se alertará al usuario de la situación.
+  - **Relación de equipos**: Se generará un fichero encolumnado llamado ***equipos.enc***, que almacenará la información de los distintos equipos de la liga (nombre, teléfono, web y email).
+  - **Clasificación de una jornada**: Se pedirá el número de la jornada y se generará un fichero *HTML* que almacenará la clasificación de la liga en la jornada introducida. El nombre de dicho fichero será n.hmtl siendo n el número de la jornada introducida.
  
 (***Nota***: Los ficheros generados se almacenan en la subcarpeta ***fichsalida*** dentro de la carpeta *"LigFemBal"*)
 
-- **Salida de la aplicación**  
-Cuando el usuario salga de la aplicación, automaticamente se guardaran todos los datos de la aplicación en un fichero con formato binario llamado ***binario.txt*** dentro de la la subcarpeta ***binarios*** dentro de la carpeta *"LigFemBal"*.
+- **Salida de la aplicación**
   
-
+Cuando el usuario salga de la aplicación, automáticamente se guardarán todos los datos de la aplicación en un fichero con formato binario llamado ***binario.txt*** dentro de la la subcarpeta ***binarios*** dentro de la carpeta *"LigFemBal"*.
+  
 # - Comentarios sobre el entorno de desarrollo
 
 Para la elaboración y compilación de este programa, se ha utilizado el framework **Netbeans** en su versión **12.0** y la version de **Java 14**. 
@@ -106,7 +106,7 @@ De esta manera, una alternativa para ejecutar la aplicación es utilizar la cons
 
 # - Ejemplo de ejecución
 
-En las siguientes imagenes, se muestra un ejemplo del uso y funcionamiento de la aplicación:    
+En las siguientes imágenes, se muestra un ejemplo del uso y funcionamiento de la aplicación:    
 
 ## Gestión de la temporada
 
@@ -158,3 +158,9 @@ En las siguientes imagenes, se muestra un ejemplo del uso y funcionamiento de la
 
 ![Ejemplo ejecucion 12](https://github.com/rmelgo/PROG-III-Aplicacion-Liga-Baloncesto/assets/145989723/3494c560-a763-4305-b79a-ae554bf05078)
 ![Ejemplo ejecucion 13](https://github.com/rmelgo/PROG-III-Aplicacion-Liga-Baloncesto/assets/145989723/457a3699-f640-4e27-941b-3078e65f07c3)
+
+# - Participantes
+
+<table>
+  <td align="center"><a href="https://github.com/rmelgo"><img src="https://avatars.githubusercontent.com/u/145989723?s=400&u=e5c06adba3f3c418207178abc845d398b3d5f77f&v=4" width="100px;" alt=""/><br /><sub><b>Raúl Melgosa</b></sub></a><br/> 
+</table>
